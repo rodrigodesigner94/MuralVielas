@@ -12,10 +12,9 @@ function Slider(){
     return(
         <div className='container'>            
             <Swiper
-            slidesPreview={1}
-            pagination={{clickable: true}}            
-            >
-                
+            slidesPreview={1}           
+            loop            
+            >                
                 {data.map((item) => (
                     <SwiperSlide key={item.id}>
                         <img
