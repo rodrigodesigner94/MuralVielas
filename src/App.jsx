@@ -1,14 +1,17 @@
-import './App.css'
-import Slider from './components/slider'
+import './App.css';
+import Slider from './components/slider';
+import Header from './components/header/Header';
 
 function App() {
-  
   return (
+
     <body>
-      <Slider/>
+      <Header />
+      <Slider />
       
     </body>
-  )
+  ) 
+  
 }
 
-export default App
+export default App;
