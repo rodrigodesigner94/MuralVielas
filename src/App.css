@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0 auto;  
 }
-body {
-  height: 1498px;
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1498px;
 }
