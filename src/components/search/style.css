@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.container_search {
+    /* Layout Properties */
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  top: 120px;
+  left: 194px;
+  width: 955px;
+  height: 49px;
+
+  /* UI Properties */
+  background: #FFF 0% 0% no-repeat padding-box;
+  border: 2px solid #707070;
+  border-radius: 35px;
+  opacity: 1;
+}
+
+.container_search_lupa, .container_search_lupa_img {
+    /* Layout Properties */
+    position: absolute;
+    top: 3px;
+    left: 17px;
+    width: 35px;
+    height: 35px;
+
+    /* UI Properties */
+    opacity: 1;
+}
+
+.container_search_input {
+    /* Layout Properties */
+    position: absolute;
+    top: 4px;  
+    left: 86px;
+    width: 64px;
+    height: 31px;
+
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 21px/31px Space Mono;
+    letter-spacing: 0px;
+    color: #CCC;
+    opacity: 1;
+    
+}
+.container_search_input_input {
+  
+    width: 64px;
+    height: 31px;
+    border: none;
+}
+
+
+
