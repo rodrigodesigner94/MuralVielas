@@ -1,17 +1,19 @@
-import './App.css';
+import Header from './components/header';
+import Search from './components/search';
+import Hashtags from './components/hashtags';
 import Slider from './components/slider';
-import Header from './components/header/Header';
+import './App.css';
+
 
 function App() {
   return (
-
     <body>
       <Header />
+      <Search />
+      <Hashtags />
       <Slider />
-      
     </body>
-  ) 
-  
+  );
 }
 
 export default App;
