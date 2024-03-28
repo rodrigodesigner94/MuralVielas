@@ -1,8 +1,33 @@
 .container{
     max-width: 795px;
-    max-height: 550px;
+    max-height: 539px;    
 }
-
-.sile-item{
-    width: 100%;
+.containerCarousel{
+    display: flex;
+    flex-direction: row;
+    margin-top: 13rem;   
+}
+.sildeItem{
+    width: 100%;    
+}
+.txtbox{
+    background-color: #4761B4;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 20rem;
+    height: 33.33rem;
+    margin-right: 1rem;
+}
+.titleVielas{
+    color: white;
+    font-family: Space Mono, Bold;    
+    margin: 1rem;
+    margin-bottom: -1rem;    
+}
+.txtVielas{
+    color: white;
+    font-family: Space Mono, Italic;
+    font-style: italic;
+    margin: 1rem;     
 }
