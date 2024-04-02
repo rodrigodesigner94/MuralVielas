@@ -1,14 +1,19 @@
 .container{
-    max-width: 795px;
-    max-height: 539px;    
+    max-width: 1088px;
+    max-height: 570px; 
+  
 }
 .containerCarousel{
     display: flex;
     flex-direction: row;
-    margin-top: 13rem;   
+    margin-top: 394px;
+    margin-left: 140px;    
 }
 .sildeItem{
-    width: 100%;    
+    top: 394px;
+    left: 692px;
+    width: 100%; 
+       
 }
 .txtbox{
     background-color: #4761B4;
