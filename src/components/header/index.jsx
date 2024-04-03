@@ -1,24 +1,41 @@
 import './style.css';
-
+import circle_icon from '../../assets/ícones/circle-solid.svg';
 export default function Header() {
   return (
     <>
-      <header className='container_header'>
-        <div className='container_header_menu'>
-          <div className='container_header_menu_rectangle_1'></div>
-          <div className='container_header_menu_rectangle_2'></div>
-          <div className='container_header_menu_rectangle_3'></div>
-        </div>
-        <div className='container_header_title'>
-          <a className='container_header_title_link' href='#'>
-            vielas
-          </a>
-        </div>
-        <div className='container_header_login'>
-          <div className='container_header_login_text'>login</div>
-        </div>
-        <div className='container_header_circle'>
-          <div className='container_header_circle_figure'></div>
+      <header>
+        <div className='container_header'>
+          <div className='box'>
+            <ul className='container_menu'>
+              <li>
+                <div className='container_menu_ret1'></div>
+                <div className='container_menu_ret2'></div>
+                <div className='container_menu_ret3'></div>
+              </li>
+            </ul>
+            <ul className='container_title'>
+              <li>
+                <a className='container_title_text' href='#'>
+                  vielas
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className='box'>
+            {' '}
+            <ul className='container_login'>
+              <li>login</li>
+            </ul>
+            <ul className='container_circle'>
+              <li>
+                <img
+                  src={circle_icon}
+                  alt='user_icon'
+                  className='container_circle_img'
+                />
+              </li>
+            </ul>
+          </div>
         </div>
       </header>
     </>
