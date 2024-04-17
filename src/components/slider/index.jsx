@@ -1,5 +1,10 @@
-import {Swiper, SwiperSlide} from 'swiper/react';
-import './style.css';
+
+// import './style.css';
+
+import { Carousel} from 'bootstrap';
+
+
+
 
 
 function Slider(){
@@ -19,8 +24,22 @@ function Slider(){
                     vive e pensa nelas.
                 </p>
             </div>
-        <div className='container'>            
-            <Swiper
+        <div className='container'> 
+        
+      
+        <Carousel>
+        {data.map((item) => (
+            <Carousel.Item key={item.id}>                 
+                <img
+                    
+                    src={item.image}
+                    className='slideItem'
+                />
+            </Carousel.Item>
+            
+        ))}
+    </Carousel>           
+            {/* <Swiper
             slidesPreview={1}           
             loop            
             >                
@@ -33,7 +52,7 @@ function Slider(){
             
                     </SwiperSlide>
                 ))}
-            </Swiper>
+            </Swiper> */}
         </div>
         </div>
     )
