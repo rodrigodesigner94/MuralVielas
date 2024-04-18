@@ -3,6 +3,7 @@ import { Card } from 'react-bootstrap'
 
 
 
+
 function Collections () {
     const data = [
         {id: '1', image: 'src/assets/imagens/coleçoes/49394513773_3451285418_w.jpg', title: 'Lazer na Infancia', info: 'Situação dos parques publicos nas comunidades'},
