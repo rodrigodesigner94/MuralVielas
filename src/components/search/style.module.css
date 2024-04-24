@@ -1,0 +1,45 @@
+li {
+  list-style: none;
+}
+
+.box_search {
+  margin-top: 5%;
+  margin-left: 11.5rem;
+  width: 80%;
+  height: 4rem;
+  display: flex;
+  flex: 1 1 100vw;
+  border: 2px solid #707070;
+  border-radius: 35px;
+}
+
+#img {
+  width: 4.1rem;
+  height: 3.5rem;
+  margin-top: 0.3rem;
+}
+
+#img img {
+  width: 3rem;
+  height: 3rem;
+  opacity: 1;
+}
+
+#input {
+  height: 3.5rem;
+  margin-top: 0.2rem;
+}
+
+#input input {
+  background-color: transparent;
+  margin-left: 1.7rem;
+  width: 100vh;
+
+  border: none;
+  outline: none;
+  text-align: left;
+  font: normal normal normal 2.2rem Space Mono;
+  letter-spacing: 0px;
+  color: #ccc;
+  opacity: 1;
+}
