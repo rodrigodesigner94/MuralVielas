@@ -1,0 +1,74 @@
+.container_colection { 
+    width: 76%;
+    margin-left: 16vw;
+}
+
+.box_1 {
+    margin-top: 72px;
+    
+}
+
+.container_result_title h3 {
+    height: 53px;
+    text-align: left;
+    font: normal normal bold 2vw Space Mono;
+    letter-spacing: 0px;
+    color: #000;
+    opacity: 1;
+}
+
+.box_2 {
+    display: flex;
+    margin-top: 14px;
+    
+}
+
+.container_result img {
+    width: 22vw;
+    height: 12vw;
+    opacity: 1;
+}
+
+.container_result_2 h3 {
+    margin-top: 1.8vw;    
+    width: 20vw;
+    height: 2.5vw;
+    text-align: left;
+    font: normal normal bold 2vw Space Mono;
+    letter-spacing: 0px;
+    color: #000;
+    opacity: 1;
+}
+
+#description {    
+    margin-top: 1vw;
+    width: 28vw;
+    height: 4.2vw;
+    text-align: left;
+    font: normal normal normal 1.5vw Space Mono;
+    letter-spacing: 0px;
+    color: #000;
+    opacity: 1;
+}
+
+#title_2 {
+    margin-top: 76px;
+    margin-left: 1.5vw;
+    width: 21vw;
+    height: 3vw;
+    text-align: left;
+    font: normal normal bold 2vw Space Mono;
+    letter-spacing: 0px;
+    color: #000;
+    opacity: 1;
+}
+
+#images{
+    margin-left: 4.5vw;
+}
+
+ img {    
+    width: 22vw;
+    height: 12vw;
+    margin-bottom:1vw;   
+}

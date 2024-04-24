@@ -1,43 +1,34 @@
-import './style.css';
-import circle_icon from '../../assets/ícones/circle-solid.svg';
-export default function Header() {
+import styles from './style.module.css';
+import user_circle from '../../assets/ícones/circle-user.svg';
+
+function Header() {
   return (
     <>
       <header>
-        <div className='container_header'>
-          <div className='box'>
-            <ul className='container_menu'>
-              <li>
-                <div className='container_menu_ret1'></div>
-                <div className='container_menu_ret2'></div>
-                <div className='container_menu_ret3'></div>
-              </li>
-            </ul>
-            <ul className='container_title'>
-              <li>
-                <a className='container_title_text' href='#'>
-                  vielas
-                </a>
-              </li>
-            </ul>
+        <div className="container">
+        <div className={styles.header}>
+          <div  className={styles.navMenu} >
+           <div className={styles.b1}></div>
+           <div className={styles.b2}></div>
+           <div className={styles.b3}></div>
           </div>
-          <div className='box'>
-            {' '}
-            <ul className='container_login'>
-              <li>login</li>
-            </ul>
-            <ul className='container_circle'>
-              <li>
-                <img
-                  src={circle_icon}
-                  alt='user_icon'
-                  className='container_circle_img'
-                />
-              </li>
-            </ul>
+          <div className={styles.boxTitle}>
+            <a href='#'>vielas</a>
           </div>
+          <div className={styles.boxLogin}>
+            <a href="#">login</a>
+
+          </div>
+          <div className={styles.boxUser}>
+            <img
+              src={user_circle}             
+            />
+          </div>
+        </div>
         </div>
       </header>
     </>
   );
 }
+
+export default Header;

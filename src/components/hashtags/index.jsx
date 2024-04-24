@@ -1,17 +1,50 @@
-import './style.css';
+import style from './style.module.css';
 
-export default function Hashtags() {
-    return(
-        <>
-            <nav className="container_hashtags">
-                <a href="#" className="container_hashtags_1">#Paraisopolis</a>
-                <a href="#" className="container_hashtags_2">#Saúde</a>
-                <a href="#" className="container_hashtags_3">#hospitais</a>
-                <a href="#" className="container_hashtags_4">#Coperifa</a>
-                <a href="#" className="container_hashtags_5">#CasaDeCultura</a>
-                <a href="#" className="container_hashtags_6">#Eleições2022</a>
-                <a href="#" className="container_hashtags_7">#Urnas</a>
-            </nav>
-        </>
-    )
+
+function Hashtags() {
+  return (
+    <>
+      <div className='container'>
+        <ul className={style.box}>
+          <li>
+            <a className={style.tags} href='#'>
+              #Paraisopolis
+            </a>
+          </li>
+          <li>
+            <a className={style.tags} href='#'>
+              #Saúde
+            </a>
+          </li>{' '}
+          <li>
+            <a className={style.tags} href='#'>
+              #hospitais
+            </a>
+          </li>{' '}
+          <li>
+            <a className={style.tags} href='#'>
+              #Coperifa
+            </a>
+          </li>{' '}
+          <li>
+            <a className={style.tags} href='#'>
+              #CasaDeCultura
+            </a>
+          </li>
+          <li>
+            <a className={style.tags} href='#'>
+              #Eleições2022
+            </a>
+          </li>
+          <li>
+            <a className={style.tags} href='#'>
+              #Urnas
+            </a>
+          </li>{' '}
+        </ul>
+      </div>
+    </>
+  );
 }
+
+export default Hashtags;
