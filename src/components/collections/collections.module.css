@@ -1,31 +1,27 @@
-.imgSection{
-    position: relative;
+.main{
+    height: 520px;
+    width: 1640px;
+    margin-left: 140px;
+   
+
+}
+.imgSection{    
     display: flex;
-    flex-direction: row;
-    gap: 16px;
-    /* top: 1018px; */
+    flex-direction: row; 
+    gap: 16px;   
+      
     width: 1244px;
-    
+    margin-right: 140px;
 }
 .ttlClt{
     margin-top: 3rem;
 }
 .card{
-    height: 520px;
-    width: 536px;
-    
-    left: 1244px;
-    width: 536px;
-    height: 520px;
-    justify-content: center;
-    
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
-    
+    width: 563px;
+    height: 407px;
 }
-.image{    
-    width: 100%;
-}
+
+
 
 /* .container .imageItem:houver{
     scale: 1.2;

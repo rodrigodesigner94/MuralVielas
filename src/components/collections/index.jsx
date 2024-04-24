@@ -1,5 +1,5 @@
 import styles from './collections.module.css'
-import { Card } from 'react-bootstrap'
+
 
 
 
@@ -12,23 +12,15 @@ function Collections () {
     ]
     return(
         
-        <div>
+        <div className={styles.main}>
             <h3 className={styles.ttlClt}>Coleções</h3>
             <div className={styles.imgSection}>
                 {data.map((item) => (
-
-                    <Card 
-                    key={item.id}
-                    style={{ width: '18rem' }}
-                    >
-                    <Card.Img variant="top" src={item.image} />
-                    <Card.Body>
-                    <Card.Title>{item.title}</Card.Title>
-                    <Card.Text>
-                        {item.info}                
-                    </Card.Text>        
-                </Card.Body>
-            </Card>
+                    <div key={item.id} className={styles.card}>
+                        <img src={item.image}/>
+                        <h3>{item.title}</h3>
+                        <p>{item.info}</p>
+                    </div>
             ))}
             </div>
         </div>
