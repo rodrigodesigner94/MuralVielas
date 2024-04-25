@@ -1,65 +1,73 @@
-header {
+
+.header { 
   background-color: #4761b4;  
   height: 100px;
   border: 1px solid #70707000;
-}
-.header { 
-  width: 100%;
+  width: 1920px;
   height: 100px;
   display: flex;
   flex: 1 1 100vw;
 }
 
 .navMenu {  
-  width: 6vw;
-  height: 3.4vw;
-  margin-top: 29px;
+  width: 93px;
+  height: 100px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  margin-left: 140px;
+  
 }
 
 .b1,
 .b2,
 .b3 {
-  width: 6vw;
-  height: 1.1rem;
-  margin-bottom: 0.5rem;
+  width: 93px;
+  height: 13px;
+  margin-bottom: 3px;
+  margin-bottom: 3px;
   background-color: #fff;
 }
 
 .boxTitle {
-  width: 11vw;
-  height: 56px;
-  margin-left: 27px;
+  width: 270px;
+  height: 51px;
+  margin-left: 28px;
   margin-top: 21px;
 }
 
 .boxTitle a {
   text-decoration: none;
   color: #fff;
-  font: normal normal bold 3vw Space Mono;
+  font: normal normal bold 46px Space Mono;
   text-transform: uppercase;
 }
 
 .boxLogin {
-  width: 6.2vw;
-  height: 3vw;
-  margin-left: 52.5vw;
-  margin-top: 2.5rem;
+  width: 159px;
+  height: 29px;
+  margin-left: 974px;
+  margin-top: 38px;
+  margin-bottom: 33px;
+  
 }
 
 .boxLogin a {
   text-decoration: none;
-  font: normal normal normal 2vw Space Mono;
+  font: normal normal bold 20px Space Mono;
   color: #ccc;
 }
 
 .boxUser{ 
-    width: 5vw;
-    height: 5vw;
-    margin-left: 2.5vw;
-    margin-top: 1rem;
+    width: 79.97px;
+    height: 79.97px;
+    margin-left: 8px;
+    margin-right: 158.3px;
+    margin-top: 10.2px;
+    margin-bottom: 10.2px;    
+    border-radius: 100%;
 }
 
 .boxUser img {
-  width: 5vw;
-  height: 5vw; 
+  width: 79.97px;
+  height: 79.97px; 
 }

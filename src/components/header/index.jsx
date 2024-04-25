@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
       <header>
-        <div className="container">
+        
         <div className={styles.header}>
           <div  className={styles.navMenu} >
            <div className={styles.b1}></div>
@@ -25,7 +25,7 @@ function Header() {
             />
           </div>
         </div>
-        </div>
+        
       </header>
     </>
   );

@@ -67,8 +67,11 @@
     margin-left: 4.5vw;
 }
 
- img {    
+ .img {    
     width: 22vw;
     height: 12vw;
     margin-bottom:1vw;   
-}
+} 
+/* Anderson, precisei alterar a estrutura do desse atributo, pois para que a estilização seja
+componetizada apenas nos elementos q forem chamados precisa ser chamado por um seletor Css, antes essa estilização img
+estava afetando todas as tags img da aplicação */
