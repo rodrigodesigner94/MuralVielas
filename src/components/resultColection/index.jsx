@@ -14,7 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function ResultColection() {
   return (
     <>
-      <div className={style.container_colection}>
+      <div className="container">
         <div>
           <div className={style.box_1}>
             <ul className={style.container_result_title}>
@@ -39,15 +39,16 @@ function ResultColection() {
             </ul>
           </div>
         </div>
-        <h3 id={style.title_2}>Outros Resultados</h3>
+        
         <div className='container'>
+        <h3 id={style.title_2}>Outros Resultados</h3>
         <div className='container text-center'>
           <div className='row' id={style.images}>          
             <div className='col-md-4'>
               <img src={image_2} alt='image_2' className={style.img}/>
             </div>
             <div className='col'>
-              <img src={image_3} alt='image_3' className={style.img}/>
+              <img src={image_3} alt='image_3' className={style.img_center}/>
             </div>
             <div className='col'>
               <img src={image_4} alt='image_4' className={style.img}/>
@@ -56,7 +57,7 @@ function ResultColection() {
               <img src={image_5} alt='image_5' className={style.img}/>
             </div>
             <div className='col'>
-              <img src={image_6} alt='image_6' className={style.img}/>
+              <img src={image_6} alt='image_6' className={style.img_center}/>
             </div>
             <div className='col'>
               <img src={image_7} alt='image_7' className={style.img}/>
@@ -65,12 +66,10 @@ function ResultColection() {
               <img src={image_8} alt='image_8' className={style.img}/>
             </div>
             <div className='col'>
-              <img src={image_9} alt='image_9' className={style.img}/>
+              <img src={image_9} alt='image_9' className={style.img_center}/>
             </div>
             <div className='col'>
-              <img src={image_10} alt='image_10' className={style.img} />
-              {/* adicionados atributos className nas tags img para direcionar
-              a estilização das imagens unicamente para esse componente */}
+              <img src={image_10} alt='image_10' className={style.img} />             
             </div>
           </div>
         </div>
