@@ -1,8 +1,5 @@
-import styles from './collections.module.css'
-
-
-
-
+import styles from './collections.module.css';
+import { Link } from 'react-router-dom';
 
 function Collections () {
     const data = [
@@ -14,6 +11,7 @@ function Collections () {
         
         <div className={styles.main}>
             <h3 className={styles.ttlClt}>Coleções</h3>
+            <Link to= 'resultado_da_coleçao'>
             <div className={styles.imgSection}>
                 {data.map((item) => (
                     <div key={item.id} className={styles.card}>
@@ -23,6 +21,7 @@ function Collections () {
                     </div>
             ))}
             </div>
+            </Link>
         </div>
     )
 }

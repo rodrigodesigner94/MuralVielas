@@ -24,8 +24,7 @@ function Slider(){
                 controls= {false}
                 indicators = {false}
                 className={styles.carousel}
-                
-                >
+                               >
                 {data.map((item) => (
                     <Carousel.Item key={item.id}>                 
                         <img

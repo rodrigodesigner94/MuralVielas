@@ -1,5 +1,6 @@
 import styles from './style.module.css';
 import user_circle from '../../assets/ícones/circle-user.svg';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -13,7 +14,7 @@ function Header() {
            <div className={styles.b3}></div>
           </div>
           <div className={styles.boxTitle}>
-            <a href='#'>vielas</a>
+            <Link to='/'><a href='#'>vielas</a></Link>
           </div>
           <div className={styles.boxLogin}>
             <a href="#">login</a>
