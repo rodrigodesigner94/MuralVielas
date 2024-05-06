@@ -1,4 +1,4 @@
-import facebook_icon from '../../assets/ícones/icones_footer/facebook-f.svg';
+import facebook_icon from '../../assets/ícones/icones_footer/facebook.svg';
 import instagram_icon from '../../assets/ícones/icones_footer/instagram.svg';
 import twitter_icon from '../../assets/ícones/icones_footer/twitter.svg';
 import whatsapp_icon from '../../assets/ícones/icones_footer/whatsapp.svg';

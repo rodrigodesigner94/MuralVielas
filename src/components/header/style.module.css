@@ -1,37 +1,31 @@
-
-.header { 
-  background-color: #4761b4;  
+.header {
+  background-color: var(--header-bg-color);
   height: 100px;
-  border: 1px solid #70707000;
-  width: 1920px;
+  border: 1px solid var(--border-color);
+  width: 100vw;
   height: 100px;
   display: flex;
-  flex: 1 1 100vw;
+  flex: 1 1 200px;
 }
 
-.navMenu {  
+.navMenu { 
   width: 93px;
-  height: 100px;
-  padding-top: 26px;
-  padding-bottom: 26px;
+  height: 54px; 
+  margin-top: 29px;
   margin-left: 140px;
-  
 }
 
-.b1,
-.b2,
-.b3 {
+.b1,.b2,.b3 {
   width: 93px;
   height: 13px;
-  margin-bottom: 3px;
-  margin-bottom: 3px;
+  margin-bottom: 6px;
   background-color: #fff;
 }
 
 .boxTitle {
   width: 270px;
   height: 51px;
-  margin-left: 28px;
+  margin-left: 27px;
   margin-top: 21px;
 }
 
@@ -43,31 +37,29 @@
 }
 
 .boxLogin {
-  width: 159px;
-  height: 29px;
-  margin-left: 974px;
-  margin-top: 38px;
-  margin-bottom: 33px;
-  
+  width: 92px;
+  height: 45px;
+  margin-left: 1005px;
+  margin-top: 31px;
+
 }
 
 .boxLogin a {
   text-decoration: none;
-  font: normal normal bold 20px Space Mono;
+  font: normal normal bold 30px Space Mono;
   color: #ccc;
 }
 
-.boxUser{ 
-    width: 79.97px;
-    height: 79.97px;
-    margin-left: 8px;
-    margin-right: 158.3px;
-    margin-top: 10.2px;
-    margin-bottom: 10.2px;    
-    border-radius: 100%;
+.boxUser {
+  width: 73px;
+  height: 73px;
+  margin-left: 57px;
+  margin-right: 100%;
+  margin-top: 14px;
+
 }
 
 .boxUser img {
-  width: 79.97px;
-  height: 79.97px; 
+  width: 73px;
+  height: 73px;
 }

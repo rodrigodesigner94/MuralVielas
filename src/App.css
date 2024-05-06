@@ -9,7 +9,17 @@
   font-family: Space Mono;
 }
 
+:root {
+  --header-bg-color:#4761b4;
+  --footer-bg-color: #E5401B;
+  --border-color:#70707000;
+}
+
 body {
   display: flex;
   width: 100vw;   
+}
+
+ul {
+  list-style: none;
 }
