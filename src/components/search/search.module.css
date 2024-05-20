@@ -1,0 +1,37 @@
+.box_search {
+  max-width: 1364px;
+  display: flex;
+  align-items: center;
+  margin-top: 72px;
+  margin-left: 278px;
+  height: 70px;
+  border: 2px solid #707070;
+  border-radius: 35px;
+}
+
+#img img {
+  width: 50px;
+  height: 50px;
+
+  margin-left: 29px;
+}
+
+#input {
+  height: 45px;
+  margin: 13px auto 12px 22px;
+}
+
+#input input {
+  background-color: transparent;
+  width: 100%;
+
+  border: none;
+  outline: none;
+  font-size: 30px;
+  font-family: 'Space Mono';
+  line-height: 45px;
+}
+
+#input input::placeholder {
+  color: #ccc;
+}

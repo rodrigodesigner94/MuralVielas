@@ -1,0 +1,21 @@
+.container {
+  margin-left: 154px;
+
+  padding: 0;
+}
+
+.box {
+  display: inline-block;
+  margin-top: 57px;
+}
+
+.box li {
+  font-family: inherit;
+  font-style: italic;
+  font-size: 30px;
+  line-height: 53px;
+  color: #000;
+  text-decoration: underline;
+
+  margin-right: 31px;
+}
