@@ -1,50 +1,26 @@
-import style from './style.module.css';
+import style from './hashtags.module.css';
 
-
-function Hashtags() {
+const Hashtags = () => {
+  const dataLi = [
+    { id: '1', tag: '#Paraisópolis' },
+    { id: '2', tag: '#Saúde' },
+    { id: '3', tag: '#Hospitais' },
+    { id: '4', tag: '#Coperifa' },
+    { id: '5', tag: '#CasaDeCultura' },
+    { id: '6', tag: '#Eleições2022' },
+    { id: '7', tag: '#Urnas' },
+  ];
   return (
     <>
-      <div className='container'>
-        <ul className={style.box}>
-          <li>
-            <a className={style.tags} href='#'>
-              #Paraisopolis
-            </a>
-          </li>
-          <li>
-            <a className={style.tags} href='#'>
-              #Saúde
-            </a>
-          </li>{' '}
-          <li>
-            <a className={style.tags} href='#'>
-              #hospitais
-            </a>
-          </li>{' '}
-          <li>
-            <a className={style.tags} href='#'>
-              #Coperifa
-            </a>
-          </li>{' '}
-          <li>
-            <a className={style.tags} href='#'>
-              #CasaDeCultura
-            </a>
-          </li>
-          <li>
-            <a className={style.tags} href='#'>
-              #Eleições2022
-            </a>
-          </li>
-          <li>
-            <a className={style.tags} href='#'>
-              #Urnas
-            </a>
-          </li>{' '}
-        </ul>
+      <div className={style.container}>
+        {dataLi.map((text) => (
+          <ul key={text.id} className={style.box}>
+            <li>{text.tag}</li>
+          </ul>
+        ))}
       </div>
     </>
   );
-}
+};
 
 export default Hashtags;
